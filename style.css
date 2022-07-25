@@ -272,13 +272,13 @@ svg {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   z-index: 1;
-  /* visibility: hidden; */
+  visibility: hidden;
   opacity: 0;
   transition: .3s;
 }
 
 .search_in.on {
-  /* visibility: visible; */
+  visibility: visible;
   opacity: 1;
 }
 

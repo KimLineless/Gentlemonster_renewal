@@ -97,7 +97,7 @@ $('.hover').mouseleave(function () {
 });
 
 // sec2_txt_hover
-document.querySelector('.hv').addEventListener('mouseover', () => {
+document.querySelector('.hv').aßddEventListener('mouseover', () => {
   document.querySelector('.son').classList.add('on');
 });
 document.querySelector('.hv').addEventListener('mouseleave', () => {
