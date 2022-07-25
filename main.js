@@ -83,10 +83,10 @@ let swiper = new Swiper('.mySwiper', {
     delay: 5000,
     disableOnInteraction: false,
   },
+  loop: true,
   centeredSlides: true,
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    hide: true,
+  pagination: {
+    el: '.swiper-pagination',
   },
 });
 
@@ -97,12 +97,16 @@ $('.hover').mouseleave(function () {
 });
 
 // sec2_txt_hover
-document.querySelector('.hv').addEventListener('mouseover', () => {
-  document.querySelector('.son').classList.add('on');
-});
-document.querySelector('.hv').addEventListener('mouseleave', () => {
-  document.querySelector('.son').classList.remove('on');
-});
+document
+  .querySelector('.pulsating-circle')
+  .addEventListener('mouseover', () => {
+    document.querySelector('.son').classList.add('on');
+  });
+document
+  .querySelector('.pulsating-circle')
+  .addEventListener('mouseleave', () => {
+    document.querySelector('.son').classList.remove('on');
+  });
 
 // sec3 img hover
 let el = document.getElementById('tilt');
