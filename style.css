@@ -798,11 +798,13 @@ figure.snip1477:hover h4 {
   left: 55.3%;
   top: 50%;
   transform: translate(-50%,-50%);
+  visibility: hidden;
   opacity: 0;
   transition: .3s;
 }
 
 .son.on {
+  visibility: visible;
   opacity: 1;
 }
 
