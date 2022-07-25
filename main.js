@@ -1,4 +1,3 @@
-
 // header
 let header = document.querySelector('header');
 const headerHeight = header.getBoundingClientRect().height;
@@ -59,7 +58,20 @@ gsap.utils.toArray('section').forEach((section, i) => {
   });
 });
 ScrollTrigger.create({
-  snap: 1 / 4,
+  snap: 1 / 5,
+});
+
+// search
+
+document.querySelector('.sear').addEventListener('click', () => {
+  document.querySelector('.sear').classList.add('on');
+  document.querySelector('.search_in').classList.add('on');
+  document.querySelector('.exid').classList.add('on');
+});
+document.querySelector('.exid').addEventListener('click', () => {
+  document.querySelector('.sear').classList.remove('on');
+  document.querySelector('.search_in').classList.remove('on');
+  document.querySelector('.exid').classList.remove('on');
 });
 
 // sec1 slide(swiper)
@@ -128,4 +140,10 @@ el.addEventListener('mousedown', function () {
 
 el.addEventListener('mouseup', function () {
   el.style.transform = 'perspective(500px) scale(1.1) rotateX(0) rotateY(0)';
+});
+
+// sec5
+
+$('figure').mouseleave(function () {
+  $(this).removeClass('hover');
 });
