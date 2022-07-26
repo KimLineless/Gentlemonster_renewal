@@ -48,18 +48,21 @@ $('.ham').click(function () {
 });
 
 // fullpage
-gsap.registerPlugin(ScrollTrigger);
-gsap.utils.toArray('section').forEach((section, i) => {
-  ScrollTrigger.create({
-    trigger: section,
-    start: 'top top',
-    pin: true,
-    pinSpacing: false,
+
+if (window.innerWidth > 1200) {
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('section').forEach((section, i) => {
+    ScrollTrigger.create({
+      trigger: section,
+      start: 'top top',
+      pin: true,
+      pinSpacing: false,
+    });
   });
-});
-ScrollTrigger.create({
-  snap: 1 / 5,
-});
+  ScrollTrigger.create({
+    snap: 1 / 5,
+  });
+}
 
 // search
 
