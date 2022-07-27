@@ -90,8 +90,14 @@ svg {
   font-size: 2rem;
 }
 
+.user {
+  left: -90px;
+}
+
 .sear {
   opacity: 1;
+  position: relative;
+  z-index: 1000;
 }
 .sear.on {
   opacity: 0;
@@ -100,6 +106,8 @@ svg {
 .exid {
   opacity: 0;
   visibility: hidden;
+  position: relative;
+  z-index: 1000;
 }
 .exid.on {
   opacity: 1;
