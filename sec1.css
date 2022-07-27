@@ -367,67 +367,65 @@ figure.snip1477:hover h4 {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
-  /* 스크롤다운 */
+/* 스크롤다운 */
 
-  .con_body {
-    position: absolute;
-    z-index: 100000;
-    left: 65px;
-    top: 80%;
-    font-family: 'Roboto', sans-serif;
-  }
+.con_body {
+  position: absolute;
+  z-index: 100000;
+  left: 65px;
+  top: 80%;
+  font-family: 'Roboto', sans-serif;
+}
 
-  /* center-hover */
+/* center-hover */
 
-  figure.snip1477 {
-    display: none;
-  }
+figure.snip1477 {
+  display: none;
+}
 
-  /* sec1-con */
-  .sec1 {
-    display: block;
-  }
+/* sec1-con */
+.sec1 {
+  display: block;
+}
 
-  .sec1 h2 {
-    display: none;
-  }
+.sec1 h2 {
+  display: none;
+}
 
-  .swiper_con {
-    display: none;
-  }
+.swiper_con {
+  display: none;
+}
 
-  .sec1_slide {
-    position: absolute;
-    left: 100%;
-    top: 0%;
-    width: 100vw;
-    height: 100vh;
-  }
+.sec1_slide {
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .sec1_slide.fir {
-    background: url(./img/01-01_fffff.webp) no-repeat;
-    background-position: left;
-    background-size: cover;
-  }
+.sec1_slide.fir {
+  background: url(./img/01-01_fffff.webp) no-repeat;
+  background-position: left;
+  background-size: cover;
+}
 
-  .sec1_slide.sec {
-    background: url(./img/04-01_fffff.webp) no-repeat;
-    background-position: left;
-    background-size: cover;
-  }
+.sec1_slide.sec {
+  background: url(./img/04-01_fffff.webp) no-repeat;
+  background-position: left;
+  background-size: cover;
+}
 
-  .sec1_slide.thi {
-    background: url(./img/10-01_ffff.webp) no-repeat;
-    background-position: left;
-    background-size: cover;
-  }
+.sec1_slide.thi {
+  background: url(./img/10-01_ffff.webp) no-repeat;
+  background-position: left;
+  background-size: cover;
+}
 
-  .sec1_slide.for {
-    background: url(./img/09-01_ffff.webp) no-repeat;
-    background-position: left;
-    background-size: cover;
-  }
+.sec1_slide.for {
+  background: url(./img/09-01_ffff.webp) no-repeat;
+  background-position: left;
+  background-size: cover;
 }
 
 @media (max-width: 500px) {

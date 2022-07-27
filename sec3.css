@@ -170,7 +170,7 @@
     background-size: cover;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 50% 50%;
   }
 
   .img_move .pro_list {

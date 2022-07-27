@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
-@import url(./header.css);
-@import url(./sec1.css);
-@import url(./sec2.css);
-@import url(./sec3.css);
-@import url(./sec4.css);
-@import url(./sec5.css);
-@import url(./footer.css);
+@import url(header.css);
+@import url(sec1.css);
+@import url(sec2.css);
+@import url(sec3.css);
+@import url(sec4.css);
+@import url(sec5.css);
+@import url(footer.css);
 
 @font-face {
   font-family: '24md';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
+    format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: '24li';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff')
+    format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -54,7 +56,7 @@
   margin: auto;
 }
 
-a{
+a {
   position: absolute;
   left: 0;
   top: 0;
@@ -76,6 +78,9 @@ section {
   overflow: hidden;
 }
 
-
-
-
+@media (max-width: 800px) {
+  section {
+    width: 100%;
+    height: 80vh;
+  }
+}

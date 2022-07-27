@@ -130,3 +130,23 @@ figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
 }
+
+@media (max-width: 800px) {
+  .sec5 {
+    height: auto;
+  }
+
+  figure.snip1091 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    min-width: 220px;
+    width: 50%;
+  }
+  .sns {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
