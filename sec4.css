@@ -155,20 +155,20 @@
     left: 50%;
     top: 35%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 70%;
     height: 20%;
     cursor: pointer;
   }
   .dosan1 {
-    width: 40%;
+    width: 50%;
     height: 40%;
-    top: 68%;
-    left: 10%;
+    top: 72%;
+    left: 5%;
   }
   .dosan2 {
-    width: 30%;
+    width: 35%;
     height: 30%;
-    top: 70%;
+    top: 72%;
     left: 60%;
   }
 }
@@ -184,7 +184,7 @@
     left: 50%;
     top: 35%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 70%;
     height: 20%;
     cursor: pointer;
   }
@@ -202,7 +202,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .dosan {
     position: absolute;
     z-index: 1;
@@ -223,6 +223,35 @@
     width: 37%;
     height: 30%;
     top: 70%;
+    left: 58%;
+  }
+}
+
+@media (max-width: 500px) {
+  .dosan1 {
+    width: 50%;
+    height: 40%;
+    top: 67%;
+    left: 5%;
+  }
+  .dosan2 {
+    width: 37%;
+    height: 30%;
+    top: 67%;
+    left: 58%;
+  }
+}
+@media (max-width: 430px) {
+  .dosan1 {
+    width: 50%;
+    height: 40%;
+    top: 60%;
+    left: 5%;
+  }
+  .dosan2 {
+    width: 37%;
+    height: 30%;
+    top: 60%;
     left: 58%;
   }
 }

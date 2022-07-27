@@ -201,6 +201,10 @@
   .img_move .pro_list {
     width: 600%;
   }
+  .sunglass p,
+  .glass p {
+    font-size: var(--font-small);
+  }
 }
 @media (max-width: 400px) {
   .img_move .pro_list {

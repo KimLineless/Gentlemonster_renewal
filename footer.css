@@ -43,6 +43,8 @@
   position: relative;
   padding: 0px 20px;
   text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
 }
 
 @media (max-width: 800px) {

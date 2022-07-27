@@ -84,3 +84,9 @@ section {
     height: 80vh;
   }
 }
+@media (max-width: 400px) {
+  .sec2,
+  .sec3 {
+    height: 60vh;
+  }
+}
