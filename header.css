@@ -260,6 +260,9 @@ svg {
   border-radius: 50px;
   border: 1px solid #d7d7d7;
   margin-bottom: 30px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-126%);
 }
 
 .ingi {
