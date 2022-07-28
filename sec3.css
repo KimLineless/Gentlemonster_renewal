@@ -170,7 +170,7 @@
     background-size: cover;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 50% 50%;
   }
 
   .img_move .pro_list {
@@ -200,6 +200,10 @@
 @media (max-width: 600px) {
   .img_move .pro_list {
     width: 600%;
+  }
+  .sunglass p,
+  .glass p {
+    font-size: var(--font-small);
   }
 }
 @media (max-width: 400px) {

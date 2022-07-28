@@ -1,3 +1,18 @@
+// resize
+
+let bWidth = window.innerWidth;
+window.addEventListener('resize', () => {
+  const nWidth = window.innerWidth;
+  if ((bWidth < 1200 && nWidth >= 1200) || (bWidth > 1200 && nWidth <= 1200)) {
+    location.reload();
+  }
+  beforeWidth = nowWidth;
+});
+
+function resize() {
+  $('body').load(window.location.href + 'body');
+}
+
 // header
 let header = document.querySelector('header');
 const headerHeight = header.getBoundingClientRect().height;

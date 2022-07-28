@@ -130,3 +130,49 @@ figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
 }
+
+@media (max-width: 800px) {
+  .sec5 {
+    height: auto;
+  }
+
+  figure.snip1091 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    min-width: 220px;
+    width: 50%;
+  }
+  .sns {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section05 {
+    background: #e6e6e6;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding-top: 125px;
+  }
+
+  .sec5 h4 {
+    font-size: 4rem;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+    color: var(--white-color);
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section05 {
+    padding-top: 0px;
+  }
+  .sec5 h4 {
+    font-size: 10vw;
+  }
+}

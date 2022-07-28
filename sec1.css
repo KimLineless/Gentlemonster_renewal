@@ -3,7 +3,7 @@
 /* 스크롤 다운 */
 .con_body {
   position: absolute;
-  z-index: 100000;
+  z-index: 10000;
   left: 135px;
   top: 80%;
   font-family: 'Roboto', sans-serif;
@@ -366,13 +366,12 @@ figure.snip1477:hover h4 {
   text-transform: uppercase;
   opacity: 1;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   /* 스크롤다운 */
 
   .con_body {
     position: absolute;
-    z-index: 100000;
+    z-index: 100;
     left: 65px;
     top: 80%;
     font-family: 'Roboto', sans-serif;

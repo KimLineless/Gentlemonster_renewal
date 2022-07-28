@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+@import url(header.css);
+@import url(./login.css);
+
+@font-face {
+  font-family: '24md';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '24li';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+
+  /* size*/
+  --padding: 12px;
+
+  /* font-size */
+  --font-large: 5rem;
+  --font-medium: 3rem;
+  --font-common: 2rem;
+  --font-small: 1.5rem;
+  --font-micro: 1rem;
+}
+
+.ingi a {
+  padding: 5px 0;
+}
+.user {
+  position: relative;
+}
+.user a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100;
+  height: 100;
+}
+
+/* start */
+
+.category {
+  position: relative;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.type_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 20%;
+}
+
+.type_img.f1 {
+  background: url(./img/TAMBU_01_thumb.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.type_img.f2 {
+  background: url(./img/tambu02.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.type_img.f3 {
+  background: url(./img/tamnu03.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.type_img.f4 {
+  background: url(./img/tambu04.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.type_img.f5 {
+  background: url(./img/tambu05.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.type p {
+  font-size: 13px;
+}
+
+.pro {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
+
+.pro .inner {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.item {
+  width: 100%;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+}
+.name,
+.price {
+  margin: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 1rem;
+    cursor: pointer;
+  }
+  .pro .inner {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+@media (max-width: 765px) {
+  .type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 0.1rem;
+    cursor: pointer;
+  }
+  .pro .inner {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
