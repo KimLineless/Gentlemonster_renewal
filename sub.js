@@ -59,3 +59,12 @@ document.querySelector('.exid').addEventListener('click', () => {
   document.querySelector('.search_in').classList.remove('on');
   document.querySelector('.exid').classList.remove('on');
 });
+
+// tab
+$('.type').click(function () {
+  let i = $(this).index();
+
+  $('.type').removeClass('on');
+  $(this).addClass('on');
+  $('.item').eq(-1).prependTo('.inner');
+});
