@@ -4,4 +4,4 @@
 
 <p align = 'center'> 👇인덱스 화면👇</p>
 
-https://user-images.githubusercontent.com/96815572/181672149-7c8a6e03-5436-4f5c-b26c-56b0b894db51.mp4
+https://user-images.githubusercontent.com/96815572/181672292-5d39db64-21db-4a13-b414-5175df50d464.mp4
